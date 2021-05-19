@@ -1,0 +1,269 @@
+*{
+    background-color: #1f1e1e;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+div{
+    display: block;
+}
+.video{
+    overflow: hidden;
+    border-radius: 900px;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+}
+
+/* navbar */
+
+/* start */
+.navbar{
+    padding: 10px 16px 10px 16px;
+    border-bottom: 1.5px solid #606060;
+}
+
+.start{
+    display: flex;
+}
+
+
+#guide{
+    color: whitesmoke;
+    float: left;
+    padding-right: 10px;
+}
+.bi-list{
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+.bi-youtube{
+    color: #ff0000;
+    width: 40px;
+    height: 25px;
+}
+
+#logo{
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+#logo p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* start */
+
+/* center */
+.center{
+    display: flex;
+}
+
+.center input{
+    width: 100%;
+    background-color: #121212;
+    border: 1.5px solid #313131;
+}
+
+#input-search{
+    width: 550px;
+}
+
+#button-search{
+    background-color: #313131;
+    width: 65px;
+    border: 1.5px solid #313131;
+}
+
+.bi-search{
+    background-color: #313131;
+    color: #888888;
+    width: 20px;
+    height: 20px;
+}
+
+#voice-search{
+    border: 0;
+    width: 50px;
+    align-items: center;
+}
+
+.bi-mic-fill{
+    background-color: #202124;
+    color: whitesmoke;
+    width: 20px;
+    height: 20px; 
+}
+
+/* center */
+
+
+/* end */
+
+.end{
+    display: flex;
+    float: left;
+}
+
+.end button{
+    margin-left: 15px;
+    margin-right: 15px;
+    border: none;
+}
+
+#create{
+    align-items: center;
+}
+
+.bi-camera-video-fill{
+    position: absolute;
+    z-index: 1;
+    color: whitesmoke;
+    top: 15px;
+    width: 22px;
+    height: 22px;
+    right: 220px;
+}
+
+.bi-plus{
+    position: absolute;
+    z-index: 2;
+    background-color: transparent;
+    color:#313131;
+    top: 16px;
+    width: 22px;
+    height: 22px; 
+    right: 223px;
+}
+
+.bi-grid-3x3-gap-fill{
+    color: whitesmoke;
+    width: 21px;
+    height: 21px;
+}
+
+.bi-bell-fill{
+    color: whitesmoke;
+    width: 21px;
+    height: 21px;
+}
+
+.bi-circle-fill{
+    position: absolute;
+    z-index: 1;
+    color: #0188d1;
+    width: 35px;
+    height: 35px;
+    top: 10px;
+    right: 10px;
+}
+
+#mail span{
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    padding-left: 10px;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 1.4em;
+    right: 18px;
+}
+
+/* end */
+
+
+
+/* navbar */
+
+
+.video-section > div{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.video-section a, span{
+    color: whitesmoke;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+.upload-date, .views{
+    color: #919191;
+}
+
+.video-container{
+    display: inline-block;
+}
+
+.thumbnail{
+    position: relative;
+    display: flex;
+
+}
+
+.thumbnail span{
+    position: absolute;
+    background-color: black;
+    color: whitesmoke;
+    right: 5px;
+    bottom: 5px;
+    padding: .1em .3em;
+    border-radius: .3em;
+    font-size: .9em;
+}
+
+.video-details{
+    display: flex;
+}
+
+.video-bottom-details{
+    margin-left: 12px;
+}
+
+
+.categories{
+    padding: 1em 3em;
+    border-bottom: 1.5px solid #606060;
+}
+
+.category-section{
+    display: flex;
+    overflow: scroll;
+}
+
+.category{
+    background-color: #414141;
+    margin-left: 10px;
+    border-radius: 9rem;
+    white-space: nowrap;
+    border: 1px solid #606060;
+    padding: 5px 10px;
+    font-size: .9em;
+}
+
+.active, .category:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.category:last-child{
+    margin-right: 0px;
+}
+
+
+
+.side-navbar{
+    float: left;
+    background-color: #606060;
+    width: 75px;
+    min-height: max-content;
+}
